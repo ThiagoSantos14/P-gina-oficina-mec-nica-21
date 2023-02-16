@@ -1,0 +1,154 @@
+body {
+    background-image: url(../imagens/page-turner.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tel {
+    margin-top: -15px;
+}
+
+.menu {
+    margin-top: -15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+a:hover {
+    background: black;
+    color: red;
+}
+
+.tel {
+    float: right;
+    margin-right: 10px;
+    color: black;
+    border: outset;
+}
+
+p:hover {
+    opacity: 0.5;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    color: white;
+}
+
+.topo {
+    padding: 30px;
+    border: outset 3px black;
+    box-shadow: 5px 5px 3px black;
+}
+
+.topo::before, .topo::after {
+    content: '';
+    display: table;
+}
+
+.topo::after {
+    clear: both;
+}
+
+.logo {
+    float: left;
+}
+
+.localizacao {
+    text-align: left;
+    margin-top: 200px;
+    margin-bottom: 230px;
+}
+
+iframe {
+    box-shadow: 10px 10px 3px black;
+    border-radius: 10px;
+}
+
+.fundo2 {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.login {
+    float: right;
+    margin-top: -650px;
+    margin-right: 100px;
+    background: blue;
+    padding: 100px;
+    background-image: url(https://s2.glbimg.com/PF1AfANQVuJiQwMX7llhEyFqOxo=/0x0:620x413/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/6/b/kDXdz4QDuhCcZnIBk7oQ/2018-12-19-logos-das-marcas-autoesporte-1.jpg);
+    background-size: 100%;
+    opacity: 0.7;
+    border-radius: 30px;
+}
+
+.text-login {
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"] {
+    width: 230px;
+    height: 30px;
+    margin-bottom: 50px;
+    background: #2ea2ff;
+    font-weight: bolder;
+}
+
+input::placeholder {
+    color: black;
+    font-weight: bolder;
+}
+
+input[type="password"] {
+    width: 230px;
+    height: 30px;
+    margin-bottom: 50px;
+    background: #2ea2ff;
+    font-weight: bolder;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 39px;
+    background: #2ea2ff;
+    font-weight: bolder;
+    margin-top: 1px;
+}
+
+.link-senha {
+    margin-top: -139px;
+}
+
+footer {
+    margin-top: 10%;
+    background-image: url(https://s2.glbimg.com/PF1AfANQVuJiQwMX7llhEyFqOxo=/0x0:620x413/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2020/6/b/kDXdz4QDuhCcZnIBk7oQ/2018-12-19-logos-das-marcas-autoesporte-1.jpg);
+    background-size: 20%;
+    opacity: 0.7;
+}
+
+footer::before, footer::after {
+    content: '';
+    display: table;
+}
+
+footer::after {
+    clear: both;
+}
+
+.text-rodape {
+    margin-right: 40%;
+    background: white;
+    width: 300px;
+    padding-left: 10px;
+}
